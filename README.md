@@ -4,9 +4,10 @@
 
 <a id="english"></a>
 
-**Yuantoutao commerce tools for DeepSeek Harness.** Search and compare 50k+ curated
-products across Taobao, JD and Pinduoduo; get trackable affiliate buy links; query
-orders — through one Streamable HTTP MCP server.
+**The e-commerce plugin for DeepSeek Harness.** One plugin gives your AI full commerce
+abilities — product search, coupon-aware comparison, affiliate buy links and order
+fulfillment — across 50k+ curated products on Taobao, JD and Pinduoduo, through one
+Streamable HTTP MCP server.
 
 ## Install
 

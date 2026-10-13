@@ -1,41 +1,51 @@
 # 各平台发布文案矩阵（SEO 关键词按平台人群定制）
 
 > 使用原则：标题=高频搜索词前置；描述=人群痛点词+平台词+能力词；标签=平台搜索框会联想的词。
-> **定位铁律（2026-10-14 用户纠偏）**：源头淘**不提供返利/返现**（那是推返的事），核心价值=
-> **给 agent 加上对话购物搜索和购物能力**（搜商品/比价/帮你买/履约）。面向 agent 开发者有
-> 开发者分成（成交额 5%），只对开发者场景提，不对消费者提。最后更新 2026-10-14。
+> **定位铁律（2026-10-14 定稿）**：
+> ①源头淘**不提供返利/返现**（那是推返的事）；
+> ②标准定位=**「电商插件」——一个插件给 AI 应用/智能体加上商品搜索、比价、购买链接、订单履约
+> 的完整电商能力，覆盖淘宝/京东/拼多多 5 万+ 精选商品**；
+> ③面向 agent 开发者的变现点=**接入即获电商变现能力（成交额 5% 开发者分成）**，只对开发者场景提；
+> ④消费者场景不提佣金/联盟。最后更新 2026-10-14。
+
+## 标准一句话定位（所有平台通用，按语言取用）
+
+- **CN**：一个插件，给你的 AI 加上电商能力——商品搜索、全网比价、购买链接、订单履约，覆盖淘宝/京东/拼多多 5 万+ 精选商品。
+- **CN 短版**：电商插件：AI 一句话搜全网好价、比价防坑、直达购买。
+- **EN**: One plugin gives your AI full e-commerce abilities — product search, comparison, buy links and order fulfillment across Taobao/JD/Pinduoduo (50k+ curated SKUs).
 
 ---
 
-## 1. 扣子 Coze（字节；开发者+企业用户；搜索词偏「插件/工具/MCP/电商」）
+## 1. 扣子 Coze（字节；开发者+企业做 Bot 的人群）
 
-**插件名**：AI 购物助手（淘宝/京东/拼多多 搜索·比价·代买）
+**插件名**：电商购物插件（淘宝/京东/拼多多·商品搜索·比价·购买链接）
 **描述**：
-> 给你的 AI 应用加上购物能力：接入 5 万+ 精选商品库，自然语言搜商品（支持预算和
-> 「要便宜/要正品」偏好）、多商品对比矩阵、券后价与历史价格、淘宝/京东/拼多多官方
-> 渠道购买链接。适合做 AI 导购、电商客服、对话买手、比价机器人的插件底座。
-**标签**：电商、购物、比价、MCP、商品搜索、导购、AI买手、淘宝、京东、拼多多
-**人群逻辑**：扣子用户搜「电商插件」「购物 MCP」「导购机器人」——把「给你的 AI 加购物能力」放最前。
+> 一个插件给你的 Bot 加上完整电商能力：自然语言搜商品（支持预算和「要便宜/要正品」偏好）、
+> 多商品对比矩阵、券后价与历史价格、三平台官方渠道购买链接，下单履约全托管。
+> 适合 AI 导购、电商客服、好价推荐、垂直购物助手等 Bot 的电商底座。接入即用，成交有分成。
+**标签**：电商插件、购物、比价、商品搜索、导购、AI买手、淘宝、京东、拼多多、MCP
+**人群逻辑**：扣子用户做 Bot 找变现和能力件——「电商插件」「成交分成」「底座」是钩子词。
 
 ## 2. DeepSeek Harness / DSH Market（开发者；偏「server/工具链」）
 
-**Name**: Yuantoutao Shopping (源头淘)
+**Name**: Yuantoutao — E-commerce MCP (源头淘电商插件)
 **Description**:
-> Conversational shopping MCP server for Chinese e-commerce: 50k+ curated products
-> across Taobao/JD/Pinduoduo, explainable 3-factor ranking (score + reasons per item),
-> coupon-aware comparison matrix, affiliate buy links with automatic attribution,
-> and an end-to-end fulfillment flow (idempotent orders, WeChat pay, tracked shipping).
-**Tags**: shopping, e-commerce, taobao, jd, pinduoduo, mcp-server, commerce, conversational-shopping
-**人群逻辑**：DSH 用户搜英文「server」「shopping agent」「tools」——主打 conversational shopping + fulfillment。
+> E-commerce MCP server for your AI agent: product search with explainable 3-factor
+> ranking, coupon-aware comparison, affiliate buy links with automatic attribution,
+> and end-to-end fulfillment (idempotent orders, WeChat pay, tracked shipping)
+> across Taobao/JD/Pinduoduo — 50k+ curated SKUs. Monetize your agent: 5% developer
+> share on attributed purchases.
+**Tags**: e-commerce, shopping, mcp-server, taobao, jd, pinduoduo, commerce, monetization
+**人群逻辑**：DSH 用户搜「server」「tools」「monetize」——「给你的 agent 加变现」是核心钩子。
 
 ## 3. 智谱清言 / bigmodel 智能体（普通用户+开发者；搜索词偏「AI购物/比价/帮你买」）
 
 **智能体名**：AI 购物助手（淘宝京东拼多多比价·历史价格）
 **简介**：
-> 买东西前先问它：一句话搜全网好价，三平台比价、查历史价格识别假促销、正品渠道
-> 直接给购买链接。支持「500 元内送女朋友的礼物」这类自然语言。
+> 买东西前先问它：一句话搜全网好价，三平台比价、查历史价格识别先涨后降、
+> 正品渠道直接给购买链接。支持「500 元内送女朋友的礼物」这类自然语言。
 **开场白**：想买什么？告诉我预算和用途，我帮你全网找最合适的～
-**标签**：AI购物、比价、历史价格、正品好价、网购助手
+**标签**：AI购物、比价、历史价格、正品好价、电商插件
 **人群逻辑**：清言用户搜「AI 购物」「比价」「历史价格」——决策辅助词优先，不碰返利。
 
 ## 4. 豆包 / 扣子发布的 Bot（大众用户；搜索词偏「买什么划算/避坑/低价」）
@@ -56,10 +66,10 @@
 
 ## 6. Kimi / Cherry Studio / ChatBox（白领/学生桌面客户端）
 
-**名称**：AI 购物比价（淘宝京东拼多多）
+**名称**：AI 购物比价插件（淘宝京东拼多多）
 **描述**：
 > 网购前问一句：全网比价、历史价格走势、优惠券查询、正品渠道购买链接。支持粘贴商品链接。
-**人群逻辑**：桌面客户端用户搜「比价」「购物助手」——功能词直给。
+**人群逻辑**：桌面客户端用户搜「比价」「购物插件」——功能词直给。
 
 ## 7. 百度文心智能体（泛用户；搜索词偏「怎么买划算/正品/比价」）
 
@@ -71,12 +81,12 @@
 
 ---
 
-## 通用 SEO 词库（组合用，已按定位清洗）
+## 通用 SEO 词库（组合用）
 
-- 核心词：AI 购物、对话购物、购物助手、帮你买、全网比价、商品搜索
+- 核心词：**电商插件**、购物插件、AI 购物、AI 导购、AI 买手、商品搜索、全网比价
 - 决策词：历史价格、假促销识别、券后价、正品渠道、好价、避坑
-- 能力词（开发者向）：购物 MCP、电商插件、商品查询 API、履约、代下单
+- 能力词（开发者向）：购物 MCP、电商能力接入、商品查询 API、订单履约、成交分成
 - 品类词：保温杯、洗衣液、纸巾、数码、家居（按商品库 top 类目轮换埋入）
 - 品牌词：源头淘、yuantoutao.com（每平台至少出现一次）
 - ~~禁用词~~（源头淘侧不用）：返现、返利、省钱返现、佣金（消费者场景一律不提；
-  开发者场景只说「开发者分成」）
+  开发者场景只说「开发者分成/成交分成」）
