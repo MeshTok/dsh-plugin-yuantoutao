@@ -26,7 +26,7 @@ export function apply(ctx, config = {}) {
   const p = ctx.plugin(McpClient, clientConfig)
   if (!apiKey) {
     console.log('[dsh-plugin-yuantoutao] running KEYLESS (read-only shopping, no commission). ' +
-      'Add a free key (never expires): https://yuantoutao.com/console/ or env YUANTOUTAO_API_KEY — unlocks live fan-out, orders & 5% commission.')
+      'Add a free key (never expires): https://yuantoutao.com/console/ or env YUANTOUTAO_API_KEY — unlocks live fan-out, orders & 3% commission. Pass client_ref on convert/search tools to tag your end-users and reward them yourself (orders come back via GET /v1/cps/attribution/orders).')
   }
   return p
 }

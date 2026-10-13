@@ -20,7 +20,7 @@ affiliate buy links · order fulfillment · 源头淘
 - **Explainable ranking 可解释排序** — every item ships a score + per-factor reasons
   (price vs category average, shop tier, sales, coupon) you can quote directly
 - **Live fan-out 实时扇出** — parallel Taobao/JD/Pinduoduo official channel queries
-- **Affiliate monetization 变现** — every buy link is attributed; 5% developer share on
+- **Affiliate monetization 变现** — every buy link is attributed; 3% developer share on
   attributed purchases, settled monthly
 - **End-to-end fulfillment 履约闭环** — idempotent orders, WeChat pay QR/redirect,
   waybill tracking, free-return pickups
@@ -29,7 +29,7 @@ affiliate buy links · order fulfillment · 源头淘
 
 Install, done. Read-only shopping tools (search 50k+ products, comparison, buy links)
 work **keylessly** — no signup, no token, quota-free local shelf.
-Add a free API key only when you want **commissions** (live fan-out, orders, 5% developer
+Add a free API key only when you want **commissions** (live fan-out, orders, 3% developer
 share, withdrawal). Free keys never expire: mint at [yuantoutao.com/console](https://yuantoutao.com/console/)
 or request `POST https://mcp.yuantoutao.com/mcp/trial`.
 

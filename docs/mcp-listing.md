@@ -32,7 +32,7 @@ covering Taobao/Tmall, JD and Pinduoduo official affiliate channels. Highlights:
 - **Comparison matrix** — 2–6 items vs category average price, coupons, shop tier,
   review signals and Chinese spec lines.
 - **Affiliate conversion** — Taobao click URLs / taobao-password, JD affiliate links,
-  Pinduoduo goods_sign links; commissions tracked automatically (5% developer share).
+  Pinduoduo goods_sign links; commissions tracked automatically (3% developer share, effective 2026-10-14).
 - **Fulfillment flow** — server-computed pricing, idempotent ordering (Idempotency-Key),
   WeChat pay QR / redirect, waybill tracking, free-return pickups.
 
@@ -57,7 +57,7 @@ shopping, e-commerce, china, taobao, jd, pinduoduo, affiliate, cps, price-compar
 
 ## Pricing
 
-Free developer tier (rate-limited). 5% commission share on attributed purchases,
+Free developer tier (rate-limited). 3% commission share on attributed purchases ("user buys, you earn 3%"),
 settled monthly.
 
 ---

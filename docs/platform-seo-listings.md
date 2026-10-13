@@ -5,7 +5,7 @@
 > ①源头淘**不提供返利/返现**（那是推返的事）；
 > ②标准定位=**「电商插件」——一个插件给 AI 应用/智能体加上商品搜索、比价、购买链接、订单履约
 > 的完整电商能力，覆盖淘宝/京东/拼多多 5 万+ 精选商品**；
-> ③面向 agent 开发者的变现点=**接入即获电商变现能力（成交额 5% 开发者分成）**，只对开发者场景提；
+> ③面向 agent 开发者的变现点=**接入即获电商变现能力（用户下单，你拿 3%）**，只对开发者场景提；
 > ④消费者场景不提佣金/联盟。最后更新 2026-10-14。
 
 ## 标准一句话定位（所有平台通用，按语言取用）
@@ -33,7 +33,7 @@
 > E-commerce MCP server for your AI agent: product search with explainable 3-factor
 > ranking, coupon-aware comparison, affiliate buy links with automatic attribution,
 > and end-to-end fulfillment (idempotent orders, WeChat pay, tracked shipping)
-> across Taobao/JD/Pinduoduo — 50k+ curated SKUs. Monetize your agent: 5% developer
+> across Taobao/JD/Pinduoduo — 50k+ curated SKUs. Monetize your agent: 3% developer
 > share on attributed purchases.
 **Tags**: e-commerce, shopping, mcp-server, taobao, jd, pinduoduo, commerce, monetization
 **人群逻辑**：DSH 用户搜「server」「tools」「monetize」——「给你的 agent 加变现」是核心钩子。
