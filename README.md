@@ -9,6 +9,22 @@ abilities — product search, coupon-aware comparison, affiliate buy links and o
 fulfillment — across 50k+ curated products on Taobao, JD and Pinduoduo, through one
 Streamable HTTP MCP server.
 
+**Keywords**: e-commerce MCP server · DeepSeek Harness plugin · AI shopping agent ·
+product search · price comparison · Taobao / Tmall / JD / Pinduoduo (淘宝 京东 拼多多) ·
+affiliate buy links · order fulfillment · 源头淘
+
+## Highlights 功能亮点
+
+- **Conversational shopping 对话购物** — natural-language product search with budget and
+  preference ("gift under ¥500", "cheapest, must be genuine")
+- **Explainable ranking 可解释排序** — every item ships a score + per-factor reasons
+  (price vs category average, shop tier, sales, coupon) you can quote directly
+- **Live fan-out 实时扇出** — parallel Taobao/JD/Pinduoduo official channel queries
+- **Affiliate monetization 变现** — every buy link is attributed; 5% developer share on
+  attributed purchases, settled monthly
+- **End-to-end fulfillment 履约闭环** — idempotent orders, WeChat pay QR/redirect,
+  waybill tracking, free-return pickups
+
 ## Install
 
 ```sh
