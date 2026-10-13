@@ -25,6 +25,14 @@ affiliate buy links · order fulfillment · 源头淘
 - **End-to-end fulfillment 履约闭环** — idempotent orders, WeChat pay QR/redirect,
   waybill tracking, free-return pickups
 
+## Zero-friction: works without any API key
+
+Install, done. Read-only shopping tools (search 50k+ products, comparison, buy links)
+work **keylessly** — no signup, no token, quota-free local shelf.
+Add a free API key only when you want **commissions** (live fan-out, orders, 5% developer
+share, withdrawal). Free keys never expire: mint at [yuantoutao.com/console](https://yuantoutao.com/console/)
+or request `POST https://mcp.yuantoutao.com/mcp/trial`.
+
 ## Install
 
 ```sh
