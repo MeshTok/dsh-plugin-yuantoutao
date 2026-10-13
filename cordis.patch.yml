@@ -1,0 +1,6 @@
+# Registers the yuantoutao MCP bridge component; it composes one
+# @deepseek-ai/dsh-mcp-client instance (Streamable HTTP) pointed at
+# https://mcp.yuantoutao.com/mcp with the user's API key.
+- insert:
+    - id: yuantoutao-mcp
+      name: './index.js'
