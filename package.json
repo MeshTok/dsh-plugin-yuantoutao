@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-yuantoutao",
-  "description": "Yuantoutao commerce tools for DeepSeek Harness: search and compare 50k+ curated products across Taobao, JD and Pinduoduo, get trackable affiliate buy links, and query orders — via the yuantoutao Streamable HTTP MCP server.",
+  "description": "E-commerce plugin/MCP server for DeepSeek Harness (源头淘电商插件) — product search, price comparison, coupons and checkout across Taobao/JD/Pinduoduo. 50k+ curated SKUs, affiliate buy links, order fulfillment.",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -10,7 +10,28 @@
     "type": "git",
     "url": "git+https://github.com/yuantoutao/dsh-plugin-yuantoutao.git"
   },
-  "keywords": ["dsh-plugin", "mcp", "shopping", "commerce", "taobao", "jd", "pinduoduo"],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "mcp",
+    "mcp-server",
+    "e-commerce",
+    "ecommerce",
+    "shopping",
+    "shopping-agent",
+    "ai-shopping",
+    "price-comparison",
+    "product-search",
+    "taobao",
+    "tmall",
+    "jd",
+    "pinduoduo",
+    "affiliate",
+    "commerce",
+    "agent-tools",
+    "china"
+  ],
   "engines": {
     "dsh": ">=0.2.0"
   },
