@@ -51,6 +51,13 @@ export YUANTOUTAO_API_KEY=ak_your_key
 Or in your profile's config: `apiKey` (plugin config), alongside optional `url`,
 `serverName`, `toolCallTimeoutMs`, `failOnStartupError`.
 
+## Try saying this after install
+
+- "Find me a gift under ¥500 for my girlfriend, authentic brands" → cross-platform search with explainable picks
+- "Compare these two thermos cups — which is the better deal" → coupon/shop-tier/spec comparison matrix
+- "What's the lowest price in the last 90 days — is now a good time?" → price-history, avoid fake promos
+- "Turn this product into a taobao password so I can share it" → out-of-app share link
+
 ## Tools (namespace `mcp__yuantoutao__*`)
 
 | Tool | What it does |

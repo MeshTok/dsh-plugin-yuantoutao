@@ -2,12 +2,18 @@ import * as McpClient from '@deepseek-ai/dsh-mcp-client'
 import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
+import crypto from 'node:crypto'
 
 const VERSION = '0.2.0'
 // 渠道识别 UA（2026-11-07）：服务端按 UA 记录 mcp_calls / cps_clicks，源头淘后台可区分 DSH 插件渠道
 const UA = `dsh-plugin-yuantoutao/${VERSION} (+https://github.com/yuantoutao/dsh-plugin-yuantoutao; DeepSeek-Harness)`
 const TRIAL_URL = 'https://mcp.yuantoutao.com/mcp/trial'
 const KEY_FILE = path.join(os.homedir() || os.tmpdir(), '.dsh-yuantoutao-key.json')
+// 安装级匿名标识（048 default_client_ref）：领 key 时随 key 存到服务端，之后所有转链/点击自动携带——
+// 你的归因订单按安装区分终端用户（复购可见），服务端原样透传不解读。本机仅存哈希，不上报任何个人信息。
+const machineRef = 'dsh-' + crypto.createHash('sha256')
+  .update(`${os.hostname() || 'host'}|${(function () { try { return os.userInfo().username } catch { return '' } })()}`)
+  .digest('hex').slice(0, 12)
 
 /**
  * 无 key 时自动领免费 key（POST /mcp/trial：免注册、永不过期、全 20 工具）并缓存本地。
@@ -26,7 +32,7 @@ async function ensureApiKey(config) {
     const r = await fetch(TRIAL_URL, {
       method: 'POST',
       headers: { 'content-type': 'application/json', 'user-agent': UA },
-      body: '{}',
+      body: JSON.stringify({ client_ref: machineRef }),
       signal: AbortSignal.timeout(6000),
     })
     if (r.ok) {

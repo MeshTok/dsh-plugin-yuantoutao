@@ -44,6 +44,13 @@ export YUANTOUTAO_API_KEY=ak_your_key
 或在 profile 配置里设置插件项 `apiKey`；可选 `url`、`serverName`、
 `toolCallTimeoutMs`、`failOnStartupError`。
 
+## 装完试试这样说
+
+- 「帮我找 500 元内送女朋友的礼物，要正品」→ 全网搜索 + 可解释推荐
+- 「这两个保温杯对比一下，哪个划算」→ 对比矩阵（券后价/店铺层级/规格）
+- 「这商品 90 天内最低过多少价，现在买亏不亏」→ 历史价格避坑
+- 「把这个商品转成淘口令发给我妈」→ 站外分享链接
+
 ## 工具（命名空间 `mcp__yuantoutao__*`）
 
 | 工具 | 能力 |
