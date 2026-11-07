@@ -1,5 +1,5 @@
-url: https://github.com/yuantoutao/dsh-plugin-yuantoutao
-name: yuantoutao/dsh-plugin-yuantoutao
+url: https://github.com/MeshTok/dsh-plugin-yuantoutao
+name: MeshTok/dsh-plugin-yuantoutao
 category: tools
 description:
   en: E-commerce plugin for DeepSeek Harness — product search, comparison and checkout across Taobao/JD/Pinduoduo (50k+ curated SKUs), via the yuantoutao Streamable HTTP MCP server.

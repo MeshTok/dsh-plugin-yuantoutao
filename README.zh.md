@@ -29,7 +29,7 @@
 ## 安装
 
 ```sh
-dsh plugin add github:yuantoutao/dsh-plugin-yuantoutao
+dsh plugin add github:MeshTok/dsh-plugin-yuantoutao
 # 然后重启：dsh web （或 dsh headless）
 ```
 

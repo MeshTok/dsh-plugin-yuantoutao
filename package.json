@@ -8,7 +8,7 @@
   "icon": "./icon.svg",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuantoutao/dsh-plugin-yuantoutao.git"
+    "url": "git+https://github.com/MeshTok/dsh-plugin-yuantoutao.git"
   },
   "keywords": [
     "dsh-plugin",

@@ -36,7 +36,7 @@ or request `POST https://mcp.yuantoutao.com/mcp/trial`.
 ## Install
 
 ```sh
-dsh plugin add github:yuantoutao/dsh-plugin-yuantoutao
+dsh plugin add github:MeshTok/dsh-plugin-yuantoutao
 # then restart: dsh web  (or dsh headless)
 ```
 

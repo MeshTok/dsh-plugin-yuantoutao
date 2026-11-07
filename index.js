@@ -6,7 +6,7 @@ import crypto from 'node:crypto'
 
 const VERSION = '0.2.0'
 // 渠道识别 UA（2026-11-07）：服务端按 UA 记录 mcp_calls / cps_clicks，源头淘后台可区分 DSH 插件渠道
-const UA = `dsh-plugin-yuantoutao/${VERSION} (+https://github.com/yuantoutao/dsh-plugin-yuantoutao; DeepSeek-Harness)`
+const UA = `dsh-plugin-yuantoutao/${VERSION} (+https://github.com/MeshTok/dsh-plugin-yuantoutao; DeepSeek-Harness)`
 const TRIAL_URL = 'https://mcp.yuantoutao.com/mcp/trial'
 const KEY_FILE = path.join(os.homedir() || os.tmpdir(), '.dsh-yuantoutao-key.json')
 // 安装级匿名标识（048 default_client_ref）：领 key 时随 key 存到服务端，之后所有转链/点击自动携带——
