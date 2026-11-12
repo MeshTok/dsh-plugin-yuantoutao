@@ -4,7 +4,7 @@ import os from 'node:os'
 import path from 'node:path'
 import crypto from 'node:crypto'
 
-const VERSION = '0.2.0'
+const VERSION = '0.2.1'
 // 渠道识别 UA（2026-11-07）：服务端按 UA 记录 mcp_calls / cps_clicks，源头淘后台可区分 DSH 插件渠道
 const UA = `dsh-plugin-yuantoutao/${VERSION} (+https://github.com/MeshTok/dsh-plugin-yuantoutao; DeepSeek-Harness)`
 const TRIAL_URL = 'https://mcp.yuantoutao.com/mcp/trial'

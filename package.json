@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-yuantoutao",
   "description": "E-commerce plugin/MCP server for DeepSeek Harness (源头淘电商插件) — product search, price comparison, coupons and checkout across Taobao/JD/Pinduoduo. 50k+ curated SKUs, affiliate buy links, order fulfillment.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "type": "module",
   "main": "index.js",
